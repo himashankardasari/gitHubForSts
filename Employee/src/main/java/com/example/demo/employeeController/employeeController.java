@@ -22,4 +22,10 @@ public void saveEmploye(@RequestBody Employee employee) {
 	empService.saveEmploy(employee);
 }
 
+@GetMapping("/test")
+public String testing() {
+	String result = "Hello, again";
+	return result;
+}
+	
 }
