@@ -28,10 +28,14 @@ public String testing() {
 	return result;
 }
 
-@GetMapping("/tester")
+@GetMapping("/demoing")
 public String testing() {
 	String result = "Hi, amigo";
 	return result;
 }
+
+
+
+
 	
 }
