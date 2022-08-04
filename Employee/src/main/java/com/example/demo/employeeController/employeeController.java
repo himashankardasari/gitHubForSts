@@ -27,5 +27,11 @@ public String testing() {
 	String result = "Hello, again";
 	return result;
 }
+
+@GetMapping("/tester")
+public String testing() {
+	String result = "Hi, amigo";
+	return result;
+}
 	
 }
